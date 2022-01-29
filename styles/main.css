@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+/* Benefits Banner */
+
+.banner {
+    width:100%;
+    height: 48px;
+}
+
+.bg-lilac {
+    background-color: #EFEBFF;
+}
+
+.icon {
+    width: 27px;
+    height: 27px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+li {
+    margin-right: 45px;
+}
+
+ul li,
+li img,
+li p {
+    display: inline;
+}
