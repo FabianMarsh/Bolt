@@ -237,6 +237,10 @@ li p {
     padding: 15px;
 }
 
+.card-info p {
+    margin-bottom: 25px;
+}
+
 .card-button {
     background-color: #000;
     color: #fff;
