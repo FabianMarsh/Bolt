@@ -9,6 +9,7 @@ body {
     font-weight: 400;
 }
 
+h1,
 h2,
 h3 {
     font-family: "Ropa Sans", sans-serif;
@@ -144,7 +145,7 @@ li p {
     vertical-align: top;
 }
 
-.message p {
+.message h1 {
     display: inline-block;
     text-transform: uppercase;
     font-family: "Ropa Sans", sans-serif;
@@ -155,8 +156,8 @@ li p {
     top: 50%;
 }
 
-.ropa-bold {
-    font-weight: 600;
+.message h1:last-child {
+    font-weight: 400;
 }
 
 .bolt-skincare-token {
@@ -174,7 +175,7 @@ li p {
 /* Featured Products */
 
 .featured-products {
-    margin-top: 120px;
+    margin: 120px 0 90px 0;
 }
 
 .featured-products h2 {
@@ -188,6 +189,24 @@ li p {
 
 .heading {
     margin-bottom: 30px;
+}
+
+.pointer-right {
+    font-family: "nanum gothic";
+    background-color: #FFBCD8;
+    color: #E06287;
+    border-radius: 50%;
+    font-size: 25px;
+    display: inline-flex;
+    height: 38px;
+    width: 38px;
+    padding-left: 2px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: 1100px;
+    left: 95%;
 }
 
 /* Cards Start ***********************************************/
@@ -261,20 +280,43 @@ li p {
 
 /* Cards End ***********************************************/
 
-.pointer-right {
-    font-family: "nanum gothic";
-    background-color: #FFBCD8;
-    color: #E06287;
-    border-radius: 50%;
-    font-size: 25px;
-    display: inline-flex;
-    height: 38px;
-    width: 38px;
-    padding-left: 2px;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    z-index: 2;
-    top: 1100px;
-    left: 95%;
+/* Feature Video Start */
+
+.feature-video {
+    margin: 70px 0 135px 0;
+    text-align: center;
 }
+
+.feature-video h1 {
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.feature-video h1, p {
+    margin: 0;
+}
+
+.feature-video-heading {
+    margin-bottom: 20px;
+}
+
+.feature-video-info {
+    margin-bottom: 52px;
+}
+
+.feature-video video {
+    background-color: #DBDADA;
+}
+
+.play-button {
+    background-image: url("../images/feature_video/play-button.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+    width: 110px;
+    z-index: 1;
+    position: absolute;
+    top: 2000px;
+    left: 46%;
+}
+
