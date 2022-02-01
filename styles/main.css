@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
 body {
     margin: 0;
     font-family: circe, sans-serif;
@@ -22,6 +24,12 @@ a:active {
     color: #000;
 }
 
+hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #F4F4F4;
+}
+
 /* Banners ***********************************************/
 
 .banner {
@@ -32,7 +40,7 @@ a:active {
 
 .main-b {
     height: 100px;
-    padding: 25px 20px 0 20px;
+    padding-top: 25px
 }
 
 .main-b img {
@@ -64,7 +72,7 @@ a:active {
 }
 
 .side-main-r {
-    padding-right: 60px;
+    padding-right: 40px;
 }
 
 .side-main-r img {
@@ -108,4 +116,53 @@ ul li,
 li img,
 li p {
     display: inline;
+}
+
+/* Banners End ***********************************************/
+
+/* Main Message */
+
+.main-message {
+    padding: 0 60px;
+    height: 536px;
+}
+
+.main-message img {
+    width: 60%;
+    height: 100%;
+    display: inline;
+}
+
+.message {
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.message p {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "Ropa Sans", sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding-left: 20px;
+    position: relative;
+    top: 50%;
+}
+
+.ropa-bold {
+    font-weight: 600;
+}
+
+.bolt-skincare-token {
+    background-image: url("../images/main_message/bolt-skincare-token.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+    top: 600px;
+    left: 55%;
 }
