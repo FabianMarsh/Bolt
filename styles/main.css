@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ropa+Sans&display=swap');
+
 
 body {
     margin: 0;
@@ -7,12 +9,10 @@ body {
     font-weight: 400;
 }
 
-.left-ta {
-    text-align: left;
-}
-
-.right-ta {
-    text-align: right;
+h2,
+h3 {
+    font-family: "Ropa Sans", sans-serif;
+    text-transform: uppercase;
 }
 
 a {
@@ -28,6 +28,10 @@ hr {
     margin: 0;
     border: none;
     border-top: 1px solid #F4F4F4;
+}
+
+.content {
+    padding: 0 60px;
 }
 
 /* Banners ***********************************************/
@@ -73,6 +77,7 @@ hr {
 
 .side-main-r {
     padding-right: 40px;
+    text-align: right;
 }
 
 .side-main-r img {
@@ -123,7 +128,6 @@ li p {
 /* Main Message */
 
 .main-message {
-    padding: 0 60px;
     height: 536px;
 }
 
@@ -165,4 +169,112 @@ li p {
     z-index: 1;
     top: 600px;
     left: 55%;
+}
+
+/* Featured Products */
+
+.featured-products {
+    margin-top: 120px;
+}
+
+.featured-products h2 {
+    display: inline;
+}
+
+.featured-products a {
+    text-decoration: underline;
+    float: right;
+}
+
+.heading {
+    margin-bottom: 30px;
+}
+
+/* Cards Start ***********************************************/
+
+.card-carousel {
+    height: 437px;
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.card {
+    background-color: #F4F4F4;
+    margin-right: 40px;
+    width: 278px;
+    display: inline-block;
+    font-size: .9em;
+}
+
+.card-img {
+    width: 100%;
+    height: 258px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-info {
+    padding: 15px;
+}
+
+.card-button {
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+    font-size: 1em;
+    width: 100%;
+    padding: 12px 16px;
+}
+
+.card-button span {
+    float: right;
+}
+
+.filthy-clean {
+    background-image: url(../images/featured_products/filthy-clean.jpg);
+}
+
+.filthy-clean:hover {
+    background-image: url(../images/featured_products/filthy-clean-hover.jpg);
+}
+
+.mad-about-moisture {
+    background-image: url(../images/featured_products/mad-about-moisture.jpg);
+}
+
+.mad-about-moisture:hover {
+    background-image: url(../images/featured_products/mad-about-moisture-hover.jpg);
+}
+
+.glow-dont-shine {
+    background-image: url(../images/featured_products/glow-dont-shine.jpg);
+}
+
+.glow-dont-shine:hover {
+    background-image: url(../images/featured_products/glow-dont-shine-hover.jpg);
+}
+
+.stackable {
+    background-image: url(../images/featured_products/stackable.jpg);
+}
+
+/* Cards End ***********************************************/
+
+.pointer-right {
+    font-family: "nanum gothic";
+    background-color: #FFBCD8;
+    color: #E06287;
+    border-radius: 50%;
+    font-size: 25px;
+    display: inline-flex;
+    height: 38px;
+    width: 38px;
+    padding-left: 2px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: 1100px;
+    left: 95%;
 }
