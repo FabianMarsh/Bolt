@@ -128,6 +128,7 @@ li p {
 
 .about-banner {
     padding: 55px;
+    margin-bottom: 110px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -371,3 +372,25 @@ li p {
 }
 
 /* Tokens End ***********************************************/
+
+/* Image Section */
+
+.image-section {
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+.image-section img:first-child {
+    vertical-align: top;
+    margin-right: 150px;
+}
+
+.image-section img:last-child {
+    margin-top: 160px;
+}
+
+.image-section img{
+    height: 680px;
+    width: 540px;
+    display: inline-block;
+}
