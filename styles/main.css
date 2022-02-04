@@ -124,6 +124,38 @@ li p {
     display: inline;
 }
 
+/* About Banner */
+
+.about-banner {
+    padding: 55px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.about-banner h2 {
+    font-size: 35px;
+    margin-bottom: 52px;
+}
+
+.about-banner img {
+    height: 60px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.about-info {
+    margin-right: 55px;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.about-info:last-child {
+    margin-right: 0;
+}
+
 /* Banners End ***********************************************/
 
 /* Main Message */
@@ -158,18 +190,6 @@ li p {
 
 .message h1:last-child {
     font-weight: 400;
-}
-
-.bolt-skincare-token {
-    background-image: url("../images/main_message/bolt-skincare-token.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 150px;
-    width: 150px;
-    position: absolute;
-    z-index: 1;
-    top: 600px;
-    left: 55%;
 }
 
 /* Featured Products */
@@ -320,7 +340,34 @@ li p {
     width: 110px;
     z-index: 1;
     position: absolute;
-    top: 2000px;
+    top: 1960px;
     left: 46%;
 }
 
+/* Tokens Start ***********************************************/
+
+.token {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+}
+
+.bolt-skincare-token {
+    background-image: url("../images/main_message/bolt-skincare-token.png");
+    top: 600px;
+    left: 55%;
+}
+
+.find-out-more-token {
+    background-image: url(../images/reused_icons/find-out-more-token.png);
+}
+
+#find-out-more-token-1 {
+    top: 2380px;
+    left: 87%;
+}
+
+/* Tokens End ***********************************************/
