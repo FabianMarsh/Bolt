@@ -31,7 +31,7 @@ hr {
     border-top: 1px solid #F4F4F4;
 }
 
-.content {
+.padding-60 {
     padding: 0 60px;
 }
 
@@ -39,6 +39,18 @@ hr {
 
 .banner {
     width:100%;
+}
+
+.banner-info {
+    margin-right: 55px;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.banner-info:last-child {
+    margin-right: 0;
 }
 
 /* Main Banner */
@@ -124,9 +136,10 @@ li p {
     display: inline;
 }
 
-/* About Banner */
+/* Large Banners */
+/* Includes About and Sustainable */
 
-.about-banner {
+.large-banner {
     padding: 55px;
     margin-bottom: 110px;
     -moz-box-sizing: border-box;
@@ -134,27 +147,15 @@ li p {
     box-sizing: border-box;
 }
 
-.about-banner h2 {
+.large-banner h2 {
     font-size: 35px;
     margin-bottom: 52px;
 }
 
-.about-banner img {
+.large-banner img {
     height: 60px;
     width: auto;
     margin-bottom: 15px;
-}
-
-.about-info {
-    margin-right: 55px;
-    width: 30%;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-}
-
-.about-info:last-child {
-    margin-right: 0;
 }
 
 /* Banners End ***********************************************/
@@ -367,7 +368,12 @@ li p {
 }
 
 #find-out-more-token-1 {
-    top: 2380px;
+    top: 2375px;
+    left: 87%;
+}
+
+#find-out-more-token-2 {
+    top: 3910px;
     left: 87%;
 }
 
