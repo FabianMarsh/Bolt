@@ -400,3 +400,43 @@ li p {
     width: 540px;
     display: inline-block;
 }
+
+/* Reviews */
+
+.reviews {
+    margin-bottom: 140px;
+}
+
+.review-heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.review-heading h2 {
+    text-transform: none;
+    font-family: circe, sans-serif;
+    font-weight: 300;
+}
+
+.reviewers-logos {
+    text-align: center;
+}
+
+.review-container {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.review-container img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 54px;
+    margin-bottom: 20px;
+}
+
+.review-container hr {
+    background-color: #E06287;
+    height: 2px;
+    width: 110px;
+    margin: auto;
+}
