@@ -489,8 +489,14 @@ footer hr {
     margin-bottom: 22px;
 }
 
-::placeholder,
-:-ms-input-placeholder,
+::placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
 ::-ms-input-placeholder {
     color: #fff;
 }
