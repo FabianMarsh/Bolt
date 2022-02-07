@@ -540,7 +540,7 @@ footer hr {
     width: 100%;
     height: 35px;
     display: flex;
-    vertical-align: middle;
+    align-items: center;
 }
 
 .footer-bottom img {
